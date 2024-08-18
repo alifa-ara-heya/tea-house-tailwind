@@ -15,6 +15,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ["Manrope", 'sans-serif']
                     }
                 }
             }
@@ -23,7 +26,7 @@
     <title>Tea House</title>
 </head>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
         <!-- header section -->
@@ -209,8 +212,52 @@
             </div>
         </section>
         <!-- news section -->
-        <section class="">
+        <section class="mb-24">
+            <!-- text -->
+            <div class="text-center">
+                <h1 class="font-bold text-5xl mb-5  mx-auto ">News and Events</h1>
+                <p class="text-gray-500 w-3/4 md:w-1/2 mx-auto mb-8">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable. </p>
+            </div>
+            <!-- card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- card-1 -->
+                <div class="border border-gray-300 rounded-lg space-y-5 p-5">
+                    <div>
+                        <img src="./images/news-1.png" alt="" class="w-full mb-5 ">
+                        <p class="text-gray-400 text-xs mb-1">Feb 05, 2027</p>
+                        <h3 class="font-bold mb-4 ">Collecting 8 points for discount</h3>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold  mb-2 mt-4" >Learn More</p>
+                    </div>
 
+                </div>
+
+                <!-- card-2 -->
+                <div class="border border-gray-300 rounded-lg space-y-5 p-5">
+                    <div>
+                        <img src="./images/news-2.png" alt="" class="w-full mb-5 ">
+                        <p class="text-gray-400 text-xs mb-1">Feb 05, 2027</p>
+                        <h3 class="font-bold mb-4 ">Collecting 8 points for discount</h3>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold  mb-2 mt-4" >Learn More</p>
+                    </div>
+
+                </div>
+
+                <!-- card-3 -->
+                <div class="border border-gray-300 rounded-lg space-y-5 p-5">
+                    <div>
+                        <img src="./images/news-3.png" alt="" class="w-full mb-5 ">
+                        <p class="text-gray-400 text-xs mb-1">Feb 05, 2027</p>
+                        <h3 class="font-bold mb-4 ">Collecting 8 points for discount</h3>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold  mb-2 mt-4" >Learn More</p>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
 
